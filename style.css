@@ -1,0 +1,58 @@
+body{
+    background-image: url(c79896dc-0eb9-4ae2-8571-e42c52954a29.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+div{
+    height: 300px;
+    width: 500px;
+    margin: 100px;
+    border: 3px solid rgb(40, 8, 221);
+}
+.d1d1{
+    border-radius: 50%;
+    background-image: radial-gradient(blue,red,green);
+}
+.d1d2{
+    border-radius: 50%;
+    background-image: radial-gradient(blue 10%,red 20%,green 50%);
+}
+.d1d3{
+    border-radius: 50%;
+    background-image: radial-gradient(blue,red ,green,purple,rgb(0, 98, 128),pink,yellow,orange);
+}
+.d1d4{
+    border-radius: 50%;
+    background-image: radial-gradient(rgba(255,0,0,1),rgba(255,0,0,0));
+}
+.d1d5{
+    border-radius: 50%;
+    background-image: radial-gradient(circle at top,blue 10%,red 20%,green 50%);
+}
+.d1d6{
+    background-image: radial-gradient(circle at 10% 90%,blue 10%,red 20%,green 50%);
+}
+.d1d7{
+    background-image: radial-gradient(circle,transparent,blue,transparent,red,transparent,green,transparent);
+}
+.d1d8{
+    background-image: radial-gradient(closest-side at 30% 40%,blue,red,green);
+}
+.d1d9{
+    background-image: radial-gradient(closest-corner at 30% 40%,blue,red,green);
+}
+.d1d10{
+    background-image: radial-gradient(farthest-corner at 30% 40%,blue,red,green);
+}
+.d1d11{
+    background-image: radial-gradient(farthest-side at 30% 40%,blue,red,green);
+}
+.d1d12{
+    border-radius: 50%;
+    background-image: repeating-radial-gradient(blue 10%,red 20%,green 10% );
+}
+.d1d13{
+    border-radius: 50%;
+    background-image: repeating-radial-gradient(blue 10%,red 20%,transparent 20%,green 30% );
+}
